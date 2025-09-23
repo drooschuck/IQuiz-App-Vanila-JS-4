@@ -42,7 +42,7 @@ async function loadQuestions(subject, dateString) {
     }
 
     let questions = [];
-    let localQuizSubject = "KS3"; // Default subject
+    let localQuizSubject = "KS4"; // Default subject
 
     try {
         const module = await import(filePath);
